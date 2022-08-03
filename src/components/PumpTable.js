@@ -13,16 +13,18 @@ function PumpTable(props) {
           <img src={props.pump2.image}></img>
         </td>
       </tr>
-      {/* <tr>
-        <th>Średnia cena z montażem: </th>
-        <td>{props.pump.insprice} </td>
-        <td>{props.pump2.insprice} </td>
-      </tr> */}
       <tr className="tr_header">
         <th colSpan="3">
           <h3>Podstawowe informacje</h3>
         </th>
       </tr>
+      {props.pump2 && (
+        <tr>
+          <th>Średnia cena z montażem BRUTTO (VAT 8%): </th>
+          <td>{props.pump.insprice} PLN</td>
+          <td>{props.pump2.insprice} PLN</td>
+        </tr>
+      )}
       <tr>
         <th>Producent i model: </th>
         <td>
