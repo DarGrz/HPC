@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/HPC/static/css/main.7d2a65e3.css",
+    "main.js": "/HPC/static/js/main.14e893c4.js",
+    "static/js/787.6b7a9ecf.chunk.js": "/HPC/static/js/787.6b7a9ecf.chunk.js",
+    "static/media/mitsubishi_zubadan.png": "/HPC/static/media/mitsubishi_zubadan.6c8da6fb86f8393e3f55.png",
+    "static/media/mitsubishi_ecoinverter.jpg": "/HPC/static/media/mitsubishi_ecoinverter.a169e3493fe8deff1072.jpg",
+    "index.html": "/HPC/index.html",
+    "main.7d2a65e3.css.map": "/HPC/static/css/main.7d2a65e3.css.map",
+    "main.14e893c4.js.map": "/HPC/static/js/main.14e893c4.js.map",
+    "787.6b7a9ecf.chunk.js.map": "/HPC/static/js/787.6b7a9ecf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d2a65e3.css",
+    "static/js/main.14e893c4.js"
+  ]
+}
