@@ -1,0 +1,22 @@
+img {
+  width: 70%;
+  max-width: 250px;
+  padding: 15px;
+  object-fit: cover;
+  margin: auto;
+  overflow: hidden;
+}
+
+td {
+  text-align: center;
+}
+
+.tr_header {
+  font-weight: bold;
+  background-color: #999;
+  color: #fff;
+}
+
+.tr_header th {
+  text-align: center;
+}
