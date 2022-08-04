@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
+import AdBaner from "./AdBaner";
 import "./PumpTable.css";
 
 function PumpTable(props) {
   return (
     <Fragment>
-      <tr className="margint">
+      <tr className="margint pumpImage">
         <th>Zdjęcie: </th>
         <td className="center">
           <img src={props.pump.image}></img>
@@ -69,6 +70,11 @@ function PumpTable(props) {
         <td>{props.pump.yearpowusage}</td>
         <td>{props.pump2.yearpowusage}</td>
       </tr>
+
+      <tr>
+        <AdBaner />
+      </tr>
+
       <tr className="tr_header">
         <th colSpan="3">
           <h3>Parametry</h3>
