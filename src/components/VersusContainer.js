@@ -1,4 +1,5 @@
 import React from "react";
+import { VersusButton } from "./ui";
 import "./VersusContainer.css";
 
 function VersusContainer(props) {
@@ -6,7 +7,9 @@ function VersusContainer(props) {
     <table>
       <tbody>
         <tr>
-          <th onClick={props.onClick}>Zubadan VS Eco Inverter</th>
+          <th onClick={props.onClick}>
+            <VersusButton>Zubadan vs Eco Inverter</VersusButton>
+          </th>
         </tr>
       </tbody>
     </table>

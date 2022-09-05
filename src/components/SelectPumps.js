@@ -5,7 +5,7 @@ import VersusContainer from "./VersusContainer";
 import { Products } from "./data";
 import "./SelectPumps.css";
 
-function SelectPumps(props) {
+function SelectPumps() {
   const [pump, setPump] = useState("");
   const [pump2, setPump2] = useState("");
 
