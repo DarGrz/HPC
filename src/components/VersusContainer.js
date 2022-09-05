@@ -1,18 +1,25 @@
 import React from "react";
 import { VersusButton } from "./ui";
-import "./VersusContainer.css";
-
+import classes from "./VersusContainer.module.css";
 function VersusContainer(props) {
   return (
-    <table>
-      <tbody>
-        <tr>
-          <th onClick={props.onClick}>
-            <VersusButton>Zubadan vs Eco Inverter</VersusButton>
-          </th>
-        </tr>
-      </tbody>
-    </table>
+    <>
+      <div id="VersusContainer" className={classes.VersusContainer}>
+        <VersusButton onClick={props.onClick}>
+          Zubadan vs Eco Inverter
+        </VersusButton>
+        <VersusButton onClick={props.onClick}>
+          Zubadan vs Eco Inverter
+        </VersusButton>
+        <VersusButton onClick={props.onClick}>
+          Zubadan vs Eco Inverter
+        </VersusButton>
+
+        <VersusButton onClick={props.onClick}>
+          Zubadan vs Eco Inverter
+        </VersusButton>
+      </div>
+    </>
   );
 }
 

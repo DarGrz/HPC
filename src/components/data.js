@@ -233,7 +233,7 @@ export const Products = [
   },
 
   {
-    id: 4,
+    id: 22,
     producent: "Mitsubishi",
     models: "Zubadan",
     pn: "PUD-SHWM100YAA",

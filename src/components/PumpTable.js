@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import AdBaner from "./AdBaner";
+
 import "./PumpTable.css";
 
 function PumpTable(props) {
@@ -8,10 +8,16 @@ function PumpTable(props) {
       <tr className="margint pumpImage">
         <th>Zdjęcie: </th>
         <td className="center">
-          <img src={props.pump.image}></img>
+          <img
+            src={props.pump.image}
+            alt={`Zdjęcie pompy: &{props.pump.producent}`}
+          ></img>
         </td>
         <td className="center">
-          <img src={props.pump2.image}></img>
+          <img
+            src={props.pump2.image}
+            alt={`Zdjęcie pompy: &{props.pump2.producent}`}
+          ></img>
         </td>
       </tr>
       <tr className="tr_header">
@@ -19,13 +25,13 @@ function PumpTable(props) {
           <h3>Podstawowe informacje</h3>
         </th>
       </tr>
-      {props.pump2 && (
+      {/* {props.pump2 && (
         <tr>
           <th>Średnia cena z montażem BRUTTO (VAT 8%): </th>
           <td>{props.pump.insprice} PLN</td>
           <td>{props.pump2.insprice} PLN</td>
         </tr>
-      )}
+      )} */}
       <tr>
         <th>Producent i model: </th>
         <td>
@@ -55,25 +61,23 @@ function PumpTable(props) {
         <td>{props.pump.guar}</td>
         <td>{props.pump2.guar}</td>
       </tr>
-      <tr>
+      {/* <tr>
         <th>Karta doboru: </th>
         <td>{props.pump.matcard}</td>
         <td>{props.pump2.matcard}</td>
-      </tr>
-      <tr>
+      </tr> */}
+      {/* <tr>
         <th>Sprężarka: </th>
         <td>{props.pump.compressor}</td>
         <td>{props.pump2.compressor}</td>
-      </tr>
+      </tr> */}
       <tr>
         <th>Roczne zużycie energii [kWh] dla temperatury 55°C</th>
         <td>{props.pump.yearpowusage}</td>
         <td>{props.pump2.yearpowusage}</td>
       </tr>
 
-      <tr>
-        <AdBaner />
-      </tr>
+      <tr></tr>
 
       <tr className="tr_header">
         <th colSpan="3">
