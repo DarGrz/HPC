@@ -1,15 +1,19 @@
 .versusButton {
-  background: none;
+  background-color: #fff;
   padding: 15px;
-  border: 1px solid #666;
   font-weight: bold;
   font-size: 18px;
+  border: none;
+  outline: none;
   cursor: pointer;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 5px;
+  color: #777;
 }
 
 @media (max-width: 800px) {
   .versusButton {
-    padding: 5px;
+    padding: 10px;
     font-size: 14px;
   }
 }

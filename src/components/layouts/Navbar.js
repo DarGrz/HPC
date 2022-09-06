@@ -8,7 +8,6 @@ const Navbar = () => {
       <div className={classes.logo}>
         <img src={logoWhite} alt="logo" />
       </div>
-      <div className={classes.navText}>Porównywarka Pomp Ciepła</div>
     </div>
   );
 };

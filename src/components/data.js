@@ -1,5 +1,5 @@
 import MitsuImage from "../images/pumps/mitsubishi_zubadan/mitsubishi_zubadan.png";
-import EcoInverterImage from "../images/pumps/mistubishi_ecoinverter/mitsubishi_ecoinverter.jpg";
+import EcoInverterImage from "../images/pumps/mistubishi_ecoinverter/eco-inverter-cylinder.png";
 
 export const Products = [
   {

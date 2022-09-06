@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 
-import "./PumpTable.css";
+import classes from "./PumpTable.module.css";
 
 function PumpTable(props) {
   return (
-    <Fragment>
-      <tr className="margint pumpImage">
+    <Fragment className={classes.pumpTable}>
+      <tr className={(classes.margint, classes.pumpImage)}>
         <th>Zdjęcie: </th>
         <td className="center">
           <img
