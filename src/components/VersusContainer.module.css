@@ -1,5 +1,7 @@
 .VersusContainer {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-evenly;
   align-content: center;
   flex-wrap: wrap;

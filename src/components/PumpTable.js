@@ -14,10 +14,12 @@ function PumpTable(props) {
           ></img>
         </td>
         <td className="center">
-          <img
-            src={props.pump2.image}
-            alt={`Zdjęcie pompy: &{props.pump2.producent}`}
-          ></img>
+          {props.pump2 && (
+            <img
+              src={props.pump2.image}
+              alt={`Zdjęcie pompy: ${props.pump2.producent}`}
+            ></img>
+          )}
         </td>
       </tr>
       <tr className="tr_header">
