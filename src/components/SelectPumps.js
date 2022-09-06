@@ -33,9 +33,6 @@ function SelectPumps(props) {
 
   return (
     <Fragment>
-      <div className="versusContainer">
-        <VersusContainer onClick={onVersusSelect} />
-      </div>
       <table>
         <tbody>
           <tr className="marginb media">
@@ -72,6 +69,9 @@ function SelectPumps(props) {
           {pump && <PumpTable pump={pump} pump2={pump2} />}
         </tbody>
       </table>
+      <div className="versusContainer">
+        <VersusContainer onClick={onVersusSelect} />
+      </div>
     </Fragment>
   );
 }

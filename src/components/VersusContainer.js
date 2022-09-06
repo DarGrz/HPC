@@ -5,11 +5,11 @@ function VersusContainer(props) {
   return (
     <>
       <div id="VersusContainer" className={classes.VersusContainer}>
-        <h3>Popularne porównania:</h3>
+        <h4>Popularne porównania:</h4>
         <div className={classes.versusButtons}>
           <VersusButton onClick={props.onClick}>
             Zubadan vs Eco Inverter
-          </VersusButton> 
+          </VersusButton>
         </div>
       </div>
     </>
