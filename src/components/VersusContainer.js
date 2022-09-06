@@ -9,7 +9,7 @@ function VersusContainer(props) {
         <div className={classes.versusButtons}>
           <VersusButton onClick={props.onClick}>
             Zubadan vs Eco Inverter
-          </VersusButton>
+          </VersusButton> 
         </div>
       </div>
     </>

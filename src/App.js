@@ -1,14 +1,16 @@
 import React, { Fragment } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/layouts/Navbar";
 import SelectPumps from "./components/SelectPumps";
-import Baner from "./components/Baner";
 import "./App.css";
 
 function App() {
   return (
-    <Fragment>
-      <Baner />
+    <BrowserRouter>
+      <Navbar />
+
       <SelectPumps />
-    </Fragment>
+    </BrowserRouter>
   );
 }
 
