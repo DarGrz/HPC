@@ -2,6 +2,7 @@ import Select from "react-select";
 import React, { Fragment, useState } from "react";
 import PumpTable from "./PumpTable";
 import backgroundMainBaner from "../images/bgs/family-two-kids.png";
+import Baner from "./layouts/Baner";
 import { Products } from "./data";
 import "./SelectPumps.css";
 
@@ -37,7 +38,7 @@ function SelectPumps(props) {
         <tbody>
           <tr>
             <th className="baner" colSpan={3}>
-              <img src={backgroundMainBaner} />
+              <Baner />
             </th>
           </tr>
           <tr>
