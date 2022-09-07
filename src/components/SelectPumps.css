@@ -6,6 +6,7 @@
   font-size: 16px;
   margin: auto;
 }
+
 .css-1s2u09g-control {
   background-color: #dde1e7;
   font-weight: bold;
@@ -19,6 +20,12 @@
   color: #333;
 }
 
+.baner img {
+  object-fit: cover;
+  max-height: 400px;
+  width: 100%;
+}
+
 .css-319lph-ValueContainer {
   border: none;
 }
@@ -28,6 +35,8 @@
 }
 
 table {
+  table-layout: fixed;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;

@@ -1,8 +1,14 @@
 .pumpTable {
   background-color: #fff;
+  width: 100%;
 }
 
-img {
+table {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.pumpImage img {
   width: 70%;
   max-width: 250px;
   padding: 15px;

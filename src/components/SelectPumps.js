@@ -1,6 +1,7 @@
 import Select from "react-select";
 import React, { Fragment, useState } from "react";
 import PumpTable from "./PumpTable";
+import backgroundMainBaner from "../images/bgs/family-two-kids.png";
 import { Products } from "./data";
 import "./SelectPumps.css";
 
@@ -22,18 +23,23 @@ function SelectPumps(props) {
   };
 
   // Heat pumps most popular comparisions
-  const onVersusSelect = () => {
-    const SelectedPump1 = Products.filter((d) => d.id === 8)[0];
-    const SelectedPump2 = Products.filter((d) => d.id === 2)[0];
+  // const onVersusSelect = () => {
+  //   const SelectedPump1 = Products.filter((d) => d.id === 8)[0];
+  //   const SelectedPump2 = Products.filter((d) => d.id === 2)[0];
 
-    setPump(SelectedPump1);
-    setPump2(SelectedPump2);
-  };
+  //   setPump(SelectedPump1);
+  //   setPump2(SelectedPump2);
+  // };
 
   return (
     <Fragment>
       <table>
         <tbody>
+          <tr>
+            <th className="baner" colSpan={3}>
+              <img src={backgroundMainBaner} />
+            </th>
+          </tr>
           <tr className="marginb media">
             <th className="th_select_header">WYBÓR URZĄDZENIA:</th>
             <td>
