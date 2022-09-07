@@ -6,13 +6,14 @@ const Card = (props) => {
   return (
     <div className={classes.cardBox}>
       <div className={classes.cardImage}>
-        <img src={MitsuZubadanImage} />
+        <img src={props.image} />
       </div>
       <div className={classes.cardHeaderText}>
-        <span className={classes.headerSpanText}>Mistubishi Zubadan</span>
+        <span className={classes.headerSpanText}>{props.producent}</span>
       </div>
       <div className={classes.cardSpecs}>
-        <span>8kW</span> <span>R32</span> <span>Split</span>
+        <span>{props.power}kW</span> <span>{props.factor}</span>
+        <span>{props.type}</span>
       </div>
     </div>
   );
