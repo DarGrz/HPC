@@ -19,8 +19,14 @@
 }
 
 .cardHeaderText {
+  margin-top: 5px;
   font-weight: bold;
-  margin: 10px 0;
+  text-align: center;
+  color: #555;
+}
+.cardModel {
+  margin-bottom: 5px;
+  font-weight: bold;
   text-align: center;
   color: #555;
 }
@@ -37,26 +43,15 @@
   border-radius: 5px;
   background-color: cadetblue;
   color: white;
+  width: 40px;
 }
 
 @media (max-width: 1100px) {
-  .cardImage img {
-    width: 50%;
-  }
-  .cardBox {
-    max-width: 100px;
-  }
   .cardHeaderText {
     font-size: 12px;
   }
 }
-@media (max-width: 1100px) {
-  .cardImage img {
-    width: 50%;
-  }
-  .cardBox {
-    max-width: 100px;
-  }
+@media (max-width: 600px) {
   .cardHeaderText {
     font-size: 12px;
   }

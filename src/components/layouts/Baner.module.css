@@ -1,0 +1,10 @@
+.banerEl {
+  margin-top: 15px;
+}
+
+.banerEl img {
+  object-fit: cover;
+  object-position: middle;
+  max-height: 400px;
+  width: 100%;
+}

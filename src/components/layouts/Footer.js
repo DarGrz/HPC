@@ -4,7 +4,7 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <span>Footer@</span>
+      <span>@Footer</span>
     </div>
   );
 };

@@ -20,12 +20,6 @@
   color: #333;
 }
 
-.baner img {
-  object-fit: cover;
-  max-height: 400px;
-  width: 100%;
-}
-
 .css-319lph-ValueContainer {
   border: none;
 }
@@ -36,7 +30,6 @@
 
 table {
   table-layout: fixed;
-  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -50,7 +43,6 @@ table tr {
 }
 
 table th {
-  padding-right: 10px;
 }
 
 .marginb th,
@@ -64,6 +56,17 @@ table th {
 
 td {
   padding: 0 15px;
+}
+.compareRow {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.compareRow span {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1100px) {
@@ -121,6 +124,9 @@ td {
     background-color: #dde1e7;
     font-weight: bold;
     font-size: 14px;
+  }
+  .compareRow span {
+    font-size: 18px;
   }
 }
 
