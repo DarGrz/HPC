@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Card.module.css";
-import { MitsuZubadanImage } from "../../utils/constants";
 
 const Card = (props) => {
   return (

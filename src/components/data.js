@@ -617,4 +617,52 @@ export const Products = [
     catalog:
       "https://www.ecodan.pl/fileadmin/user_upload/downloads/broschueren/me_katalog_atw_2021-2022.pdf",
   },
+  {
+    id: 12,
+    producent: "Panasonic",
+    models: "Aquarea EcoFleX",
+    pn: "WH-ADF0309J3E5CM",
+    power: "8",
+    type: "Split",
+    guar: "Producent | 5 lat",
+
+    insprice: "---",
+    catprice: "0000",
+    yearpowusage: "4301.00",
+    compressor: "---",
+    compressorlife: "compressorlife",
+
+    phases: "230 | 1 | 50",
+    factor: "R32",
+    makstemp: "60",
+    pefficinecy35: "A+++",
+    pefficiency55: "A++",
+    nominal35: "6,5",
+    nominal55: "6,5",
+    maksmin10w35: "7,1",
+    makmin15w35: "6,0",
+    heatingrange: "-20 - 24",
+    heatcwurange: "-20 - 35",
+
+    coolrange: "10 - 46",
+    coolpow: "4,5",
+    sizemm: "880x840x330",
+    weight: "54",
+    db: "62",
+
+    powercord: "----",
+    safety: "16",
+
+    coolconnect: "1/4-1/2",
+    maxinstlength: "30",
+    maxheigtdist: "30",
+    coolantamount: "1,2",
+    coeqwi: "0,81",
+    maxcoeqw: "1,6",
+    maxeqwco2: "1,08",
+    image: EcoInverterImage,
+    matcard: "--matching card---",
+    catalog:
+      "https://www.ecodan.pl/fileadmin/user_upload/downloads/broschueren/me_katalog_atw_2021-2022.pdf",
+  },
 ];

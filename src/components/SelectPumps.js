@@ -52,7 +52,7 @@ function SelectPumps(props) {
             </th>
           </tr>
           <tr>
-            <th>
+            <th colSpan={3}>
               <CardsBox />
             </th>
           </tr>

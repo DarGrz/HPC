@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { EcoInverterImage, ZubadanImage } from "../../utils/constants";
+import { EcoInverterImage, ZubadanImage } from "../../images/constants";
 import classes from "./CardsBox.module.css";
 
 const split = "Split";

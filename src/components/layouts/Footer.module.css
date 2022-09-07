@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+}
