@@ -40,6 +40,14 @@ function SelectPumps(props) {
               <img src={backgroundMainBaner} />
             </th>
           </tr>
+          <tr>
+            <th
+              colSpan={3}
+              style={{ textAlign: "center", textTransform: "uppercase" }}
+            >
+              <h1>Porównywarka Pomp Ciepła</h1>
+            </th>
+          </tr>
           <tr className="marginb media">
             <th className="th_select_header">WYBÓR URZĄDZENIA:</th>
             <td>
