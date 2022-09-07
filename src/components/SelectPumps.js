@@ -1,7 +1,6 @@
 import Select from "react-select";
 import React, { Fragment, useState } from "react";
 import PumpTable from "./PumpTable";
-import VersusContainer from "./VersusContainer";
 import { Products } from "./data";
 import "./SelectPumps.css";
 
@@ -69,9 +68,6 @@ function SelectPumps(props) {
           {pump && <PumpTable pump={pump} pump2={pump2} />}
         </tbody>
       </table>
-      <div className="versusContainer">
-        <VersusContainer onClick={onVersusSelect} />
-      </div>
     </Fragment>
   );
 }

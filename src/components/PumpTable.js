@@ -22,7 +22,7 @@ function PumpTable(props) {
           )}
         </td>
       </tr>
-      <tr className="tr_header">
+      <tr className={classes.tr_header}>
         <th colSpan="3">
           <h3>Podstawowe informacje</h3>
         </th>
@@ -81,7 +81,7 @@ function PumpTable(props) {
 
       <tr></tr>
 
-      <tr className="tr_header">
+      <tr className={classes.tr_header}>
         <th colSpan="3">
           <h3>Parametry</h3>
         </th>
@@ -170,7 +170,7 @@ function PumpTable(props) {
         <td>{props.pump2.coolrange}</td>
       </tr>
 
-      <tr className="tr_header">
+      <tr className={classes.tr_header}>
         <th colSpan="3">
           <h3>Dane montażowe</h3>
         </th>

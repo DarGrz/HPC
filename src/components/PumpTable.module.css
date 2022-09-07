@@ -13,12 +13,17 @@ img {
 
 td {
   text-align: center;
+  font-weight: 600;
+}
+th {
+  text-align: left;
 }
 
 .tr_header {
-  font-weight: bold;
+  font-weight: 800;
   background-color: #999;
   color: #fff;
+  text-align: center;
 }
 
 .tr_header th {
