@@ -6,7 +6,7 @@
   font-size: 16px;
   margin: auto;
 }
-
+/* Selector */
 .css-1s2u09g-control {
   background-color: #dde1e7;
   font-weight: bold;
@@ -43,7 +43,6 @@ table {
   flex-direction: column;
   justify-content: center;
   border-collapse: collapse;
-  padding: 25px;
 }
 
 table tr {
@@ -51,7 +50,6 @@ table tr {
 }
 
 table th {
-  padding: 25px 0;
   padding-right: 10px;
 }
 
@@ -118,6 +116,11 @@ td {
 @media (max-width: 800px) {
   th h1 {
     font-size: 20px;
+  }
+  .css-1s2u09g-control {
+    background-color: #dde1e7;
+    font-weight: bold;
+    font-size: 14px;
   }
 }
 

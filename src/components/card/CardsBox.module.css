@@ -1,0 +1,7 @@
+.cardsBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex: auto;
+  overflow: scroll;
+}

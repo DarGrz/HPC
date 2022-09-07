@@ -3,6 +3,7 @@ import React, { Fragment, useState } from "react";
 import PumpTable from "./PumpTable";
 import backgroundMainBaner from "../images/bgs/family-two-kids.png";
 import Baner from "./layouts/Baner";
+import CardsBox from "./card/CardsBox";
 import { Products } from "./data";
 import "./SelectPumps.css";
 
@@ -41,12 +42,18 @@ function SelectPumps(props) {
               <Baner />
             </th>
           </tr>
+
           <tr>
             <th
               colSpan={3}
               style={{ textAlign: "center", textTransform: "uppercase" }}
             >
               <h1>Porównywarka Pomp Ciepła</h1>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <CardsBox />
             </th>
           </tr>
           <tr className="marginb media">
