@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import ScoreElement from "./ui/ScoreElement";
+import ScoreElementRight from "./ui/ScoreElementRight";
 
 import classes from "./PumpTable.module.css";
 
@@ -12,6 +14,7 @@ function PumpTable(props) {
             src={props.pump.image}
             alt={`Zdjęcie pompy: &{props.pump.producent}`}
           ></img>
+          <ScoreElement pump={props.pump} />
         </td>
         <td className="center">
           {props.pump2 && (
@@ -20,6 +23,7 @@ function PumpTable(props) {
               alt={`Zdjęcie pompy: ${props.pump2.producent}`}
             ></img>
           )}
+          {props.pump2 && <ScoreElementRight pump2={props.pump2} />}
         </td>
       </tr>
       <tr className={classes.tr_header}>

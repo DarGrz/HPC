@@ -30,14 +30,14 @@ function SelectPumps(props) {
   //   setPump2(SelectedPump2);
   // };
 
-  const setPumpsOne = () => {
-    setPump(Products.filter((d) => d.id === 2)[0]);
-    setPump2(Products.filter((d) => d.id === 11)[0]);
-  };
+  // const setPumpsOne = () => {
+  //   setPump(Products.filter((d) => d.id === 2)[0]);
+  //   setPump2(Products.filter((d) => d.id === 11)[0]);
+  // };
 
-  useEffect(() => {
-    setPumpsOne();
-  }, []);
+  // useEffect(() => {
+  //   setPumpsOne();
+  // }, []);
 
   return (
     <Fragment>

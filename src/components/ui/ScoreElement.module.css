@@ -1,0 +1,12 @@
+.pktCircle {
+  margin: auto;
+  background-color: greenyellow;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
