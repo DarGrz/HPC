@@ -4,7 +4,7 @@ import classes from "./PumpTable.module.css";
 
 function PumpTable(props) {
   return (
-    <Fragment className={classes.pumpTable}>
+    <Fragment>
       <tr className={(classes.margint, classes.pumpImage)}>
         <th>Zdjęcie: </th>
         <td className="center">

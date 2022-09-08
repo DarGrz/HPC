@@ -8,6 +8,7 @@
 }
 /* Selector */
 .css-1s2u09g-control {
+  margin: 5px;
   background-color: #dde1e7;
   font-weight: bold;
   font-size: 18px;
@@ -36,13 +37,11 @@ table {
   flex-direction: column;
   justify-content: center;
   border-collapse: collapse;
+  padding-bottom: 25px;
 }
 
 table tr {
-  border-bottom: 1px solid #999;
-}
-
-table th {
+  border-bottom: 0.7px solid #999;
 }
 
 .marginb th,
@@ -55,15 +54,15 @@ table th {
 }
 
 td {
-  padding: 0 15px;
+  padding: 0 px;
 }
-.compareRow {
-  margin: 15px 0;
+.compareRowText {
+  margin: 30px 0;
   display: flex;
   justify-content: center;
   border: none;
 }
-.compareRow span {
+.compareRowText span {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
@@ -77,14 +76,9 @@ td {
     align-items: center;
   }
 
-  table {
-    padding: 10px;
-  }
-
   table th,
   table td {
-    font-size: 18px;
-    color: #222;
+    font-size: 16px;
   }
 
   .marginb th,
@@ -93,7 +87,7 @@ td {
   }
 
   table th {
-    padding: 20px 0;
+    padding: 1px 1px 1px 5px;
     text-align: left;
   }
   .select1,
@@ -112,13 +106,17 @@ td {
   }
 
   table h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 800px) {
   th h1 {
     font-size: 20px;
+  }
+
+  th {
+    font-size: 18px;
   }
   .css-1s2u09g-control {
     background-color: #dde1e7;
@@ -133,10 +131,13 @@ td {
 @media (max-width: 600px) {
   table th {
     font-size: 13px;
-    color: #222;
   }
 
   table td {
     font-size: 12px;
+  }
+
+  table h3 {
+    font-size: 14px;
   }
 }

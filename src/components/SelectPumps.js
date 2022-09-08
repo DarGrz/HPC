@@ -1,5 +1,5 @@
 import Select from "react-select";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import PumpTable from "./PumpTable";
 import { Products } from "./data";
 import "./SelectPumps.css";
@@ -30,11 +30,20 @@ function SelectPumps(props) {
   //   setPump2(SelectedPump2);
   // };
 
+  const setPumpsOne = () => {
+    setPump(Products.filter((d) => d.id === 2)[0]);
+    setPump2(Products.filter((d) => d.id === 11)[0]);
+  };
+
+  useEffect(() => {
+    setPumpsOne();
+  }, []);
+
   return (
     <Fragment>
       <table>
         <tbody>
-          <tr className="compareRow">
+          <tr className="compareRowText">
             <th colSpan={3}>
               <span>Porównaj pompy ciepła!</span>
             </th>
