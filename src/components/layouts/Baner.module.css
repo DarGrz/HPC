@@ -1,5 +1,9 @@
 .banerEl {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   margin-top: 15px;
+  max-width: 1400px;
 }
 
 .banerEl img {
