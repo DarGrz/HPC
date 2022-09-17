@@ -21,15 +21,6 @@ function SelectPumps(props) {
     setPump2(SelectedPump2);
   };
 
-  // Heat pumps most popular comparisions
-  // const onVersusSelect = () => {
-  //   const SelectedPump1 = Products.filter((d) => d.id === 8)[0];
-  //   const SelectedPump2 = Products.filter((d) => d.id === 2)[0];
-
-  //   setPump(SelectedPump1);
-  //   setPump2(SelectedPump2);
-  // };
-
   const setPumpsOne = () => {
     setPump(Products.filter((d) => d.id === 2)[0]);
     setPump2(Products.filter((d) => d.id === 11)[0]);

@@ -2,10 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75px;
   background-color: black;
   color: #fff;
   text-align: center;
+}
+
+.footer ul {
+  list-style: none;
 }
 
 @media (max-width: 800px) {

@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/layouts/Navbar";
 import SelectPumps from "./components/SelectPumps";
 import Baner from "./components/layouts/Baner";
-// import Footer from "./components/layouts/Footer";
+import Footer from "./components/layouts/Footer";
 import "./App.css";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Baner />
         <SelectPumps />
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );
